@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delicious Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #FF6347;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #FF6347;
+        }
+        .section-title {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 2rem;
+        }
+        .bakery-items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 20px;
+        }
+        .bakery-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .bakery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .bakery-item h3 {
+            background-color: #FF6347;
+            color: white;
+            margin: 0;
+            padding: 10px 0;
+        }
+        .bakery-item p {
+            padding: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Bakery</h1>
+        <p>Freshly Baked Goods Delivered Daily</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2 class="section-title">Welcome to Delicious Bakery!</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto; padding: 0 20px;">
+            We offer the best selection of cakes, breads, pastries, and much more. Our ingredients are fresh, and each item is crafted with love and care.
+        </p>
+    </section>
+
+    <section id="menu">
+        <h2 class="section-title">Our Bakery Menu</h2>
+        <div class="bakery-items">
+            <div class="bakery-item">
+                <img src="https://via.placeholder.com/250x200" alt="Cake">
+                <h3>Chocolate Cake</h3>
+                <p>Rich, moist chocolate cake with creamy frosting. Perfect for any occasion!</p>
+            </div>
+
+            <div class="bakery-item">
+                <img src="https://via.placeholder.com/250x200" alt="Bread">
+                <h3>Fresh Baguette</h3>
+                <p>Crispy crust with soft, airy inside. A true classic French bread.</p>
+            </div>
+
+            <div class="bakery-item">
+                <img src="https://via.placeholder.com/250x200" alt="Pastry">
+                <h3>Fruit Pastry</h3>
+                <p>Flaky puff pastry filled with fresh seasonal fruits.</p>
+            </div>
+
+            <div class="bakery-item">
+                <img src="https://via.placeholder.com/250x200" alt="Cupcake">
+                <h3>Vanilla Cupcake</h3>
+                <p>Soft and fluffy vanilla cupcake topped with buttercream frosting.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Bakery. All rights reserved.</p>
+        <p>Follow us on social media!</p>
+    </footer>
+</body>
+</html>
